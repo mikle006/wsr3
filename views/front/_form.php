@@ -19,9 +19,9 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'imageFile1')->fileInput() ?>
     <?= $form->field($model, 'imageFile2')->fileInput() ?>
 
-    <?= $form->field($model, 'before_img')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'before_img')->hidenInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'after_img')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'after_img')->hidenInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'why_not')->textarea(['rows' => 6]) ?>
 
